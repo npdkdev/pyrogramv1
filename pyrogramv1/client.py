@@ -65,7 +65,7 @@ class Client(Methods, Scaffold):
             Alternatively, if you don't want a file to be saved on disk, pass the special name ``":memory:"`` to start
             an in-memory session that will be discarded as soon as you stop the Client. In order to reconnect again
             using a memory storage without having to login again, you can use
-            :meth:`~pyrogram.Client.export_session_string` before stopping the client to get a session string you can
+            :meth:`~pyrogramv1.Client.export_session_string` before stopping the client to get a session string you can
             pass here as argument.
 
         api_id (``int`` | ``str``, *optional*):

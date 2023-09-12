@@ -78,7 +78,7 @@ class RPCError(Exception):
 
         if error_id not in exceptions[error_code]:
             raise getattr(
-                import_module("pyrogram.errors"),
+                import_module("pyrogramv1.errors"),
                 exceptions[error_code]["_"]
             )(x=f"[{error_code} {error_message}]",
               rpc_name=rpc_name,
@@ -89,7 +89,7 @@ class RPCError(Exception):
         x = x.group(1) if x is not None else x
 
         raise getattr(
-            import_module("pyrogram.errors"),
+            import_module("pyrogramv1.errors"),
             exceptions[error_code][error_id]
         )(x=x,
           rpc_name=rpc_name,
