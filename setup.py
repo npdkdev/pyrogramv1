@@ -137,7 +137,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/pyrogram",
-    download_url="https://github.com/pyrogram/pyrogram/releases/latest",
+    download_url="https://github.com/npdkdev/pyrogramv1/releases/latest",
     author="Dan",
     author_email="dan@pyrogram.org",
     license="LGPLv3+",
