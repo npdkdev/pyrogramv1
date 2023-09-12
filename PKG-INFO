@@ -3,13 +3,13 @@ Name: Pyrogram
 Version: 1.4.16
 Summary: Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots
 Home-page: https://github.com/pyrogram
-Download-URL: https://github.com/pyrogram/pyrogram/releases/latest
+Download-URL: https://github.com/npdkdev/pyrogramv1/releases/latest
 Author: Dan
 Author-email: dan@pyrogram.org
 License: LGPLv3+
-Project-URL: Tracker, https://github.com/pyrogram/pyrogram/issues
+Project-URL: Tracker, https://github.com/npdkdev/pyrogramv1/issues
 Project-URL: Community, https://t.me/pyrogram
-Project-URL: Source, https://github.com/pyrogram/pyrogram
+Project-URL: Source, https://github.com/npdkdev/pyrogramv1
 Project-URL: Documentation, https://docs.pyrogram.org
 Keywords: telegram chat messenger mtproto api client library python
 Platform: UNKNOWN
@@ -41,7 +41,7 @@ License-File: COPYING.lesser
 License-File: NOTICE
 
 <p align="center">
-    <a href="https://github.com/pyrogram/pyrogram">
+    <a href="https://github.com/npdkdev/pyrogramv1">
         <img src="https://docs.pyrogram.org/_static/pyrogram.png" alt="Pyrogram" width="128">
     </a>
     <br>
